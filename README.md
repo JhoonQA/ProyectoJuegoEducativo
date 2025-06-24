@@ -20,11 +20,11 @@ Este proyecto sirve como ejercicio de consolidación de conocimientos en program
 
 ## Tecnologías utilizadas
 
-1. PHP         Backend principal con lógica procedural y orientada a objetos. 
-2. MySQL       Base de datos relacional para almacenar usuarios. 
-3. HTML5       Estructura semántica de las páginas. 
-4. CSS3        Estilos y diseño visual. 
-5. JavaScript  Validaciones dinámicas.
+1. [PHP](https://www.php.net/)         Backend principal con lógica procedural y orientada a objetos. 
+2. [MySQL](https://dev.mysql.com/doc/)       Base de datos relacional para almacenar usuarios. 
+3. [HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML)       Estructura semántica de las páginas. 
+4. [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)        Estilos y diseño visual. 
+5. [JavaScript](https://www.javascript.com/learn)  Validaciones dinámicas.
    
 ---
    
