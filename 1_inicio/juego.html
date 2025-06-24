@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Game Quiz</title>
+</head>
+<body>
+    <div class="container">
+        <img src="img/int4.png" alt="" class="img">
+        <a class="salir" href="../index_menu.php" >
+            Salir
+        </a>
+        <header>
+            <div class="puntaje">
+                <img src="img/puntos.png" alt="">
+                <span class="puntos" id="puntos">0</span>
+            </div>
+            <h1>QUIZ & LEARN</h1>
+            <div class="jugador">
+                <span class="nombre" id="nombre">Martín</span>
+                <img src="img/user.png" alt="">
+            </div>
+        </header>
+
+        <main class="juego">
+            <div class="contador-pregunta">
+                <span id="num-pregunta" class="num-pregunta">01</span>
+                /
+                <span> 5</span>
+            </div>
+            <p id="txt-pregunta" class="pregunta">
+                ¿Texto de la pregunta 1?
+            </p>
+
+            <div class="opciones" id="opciones">
+                <button class="opcion" id="a">Opcion A</button>
+                <button class="opcion" id="b">Opcion B</button>
+                <button class="opcion" id="c">Opcion C</button>
+                <button class="opcion" id="d">Opcion D</button>
+            </div>
+
+            <button class="btn" id="siguiente">Siguiente</button>
+            
+        </main>
+    </div>
+
+    <div id="contenidoJuego"></div>
+    <script src="js/juego.js"></script>
+</body>
+</html>

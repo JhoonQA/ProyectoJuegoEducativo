@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Editor de Preguntas - Quiz & Learn++</title>
+    <link rel="stylesheet" href="estilo_editor.css">
+</head>
+<body>
+    <h1>Editor de Preguntas</h1>
+
+    <form id="formulario">
+        <input type="hidden" id="idPregunta">
+        <label>Categoría: <input type="text" id="categoria" required></label><br>
+        <label>Título: <input type="text" id="titulo" required></label><br>
+        <label>Opción A: <input type="text" id="opcionA" required></label><br>
+        <label>Opción B: <input type="text" id="opcionB" required></label><br>
+        <label>Opción C: <input type="text" id="opcionC" required></label><br>
+        <label>Opción D: <input type="text" id="opcionD" required></label><br>
+        <label>Respuesta correcta (a/b/c/d): <input type="text" id="correcta" maxlength="1" required></label><br>
+
+        <button type="submit">Guardar Pregunta</button>
+        <button type="button" onclick="limpiarFormulario()">Limpiar</button>
+    </form>
+
+    <h2>Preguntas Personalizadas</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>ID</th><th>Categoría</th><th>Título</th><th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody id="tablaPreguntas"></tbody>
+    </table>
+
+    <h3>Enlace Generado:</h3>
+    <input type="text" id="enlaceGenerado" readonly style="width: 100%">
+
+    <script src="js/editor.js"></script>
+</body>
+</html>

@@ -1,0 +1,157 @@
+:root {
+  --neon-blue: #00eaff;
+  --neon-green: #00ffbf;
+  --neon-pink: #ff4de6;
+  --neon-bg: linear-gradient(135deg, #1a1a2e, #0f3460, #16213e);
+  --text-color: #f0f0f0;
+  --footer-bg: rgba(0, 44, 44, 0.7);
+  --footer-text: #aaf;
+}
+
+* {
+  user-select: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--neon-bg);
+  font-family: 'Orbitron', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--text-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+/* Logo */
+.logo-link {
+  position: absolute;
+  top: 1.2em;
+  left: 1.2em;
+  display: inline-block;
+  text-decoration: none;
+
+  color: #41f3f3;
+  text-shadow: 0 0 10px var(--neon-green);
+}
+
+.logo-img {
+  width: 60px;
+  max-height: 100px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,234,255,0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.logo-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 16px rgba(0,234,255,0.6);
+}
+
+/* Caja menú */
+.menu-box {
+  background: rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 2px solid var(--neon-blue);
+  border-radius: 18px;
+  padding: 2.5em 2em;
+  width: 100%;
+  max-width: 420px;
+  text-align: center;
+  box-shadow: 0 0 25px rgba(0, 234, 255, 0.3);
+  animation: fadeIn 0.8s ease;
+}
+
+/* Título del menú */
+.menu-title {
+  font-size: 2.2rem;
+  margin-bottom: 1.5em;
+  color: var(--neon-green);
+  text-shadow: 0 0 12px var(--neon-green);
+  letter-spacing: 11px;
+}
+
+/* Botones del menú */
+.menu-options {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2em;
+}
+
+.menu-options a {
+  letter-spacing: 2px;
+}
+
+.menu-button,.close-sesion {
+  padding: 0.9em;
+  background: var(--neon-blue);
+  color: #000;
+  font-weight: bold;
+  font-size: 1rem;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+  box-shadow: 0 0 10px var(--neon-blue);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.menu-button:hover ,.close-sesion:hover{
+  background: var(--neon-green);
+  box-shadow: 0 0 15px var(--neon-green);
+}
+
+.close-sesion {
+  background: var(--neon-pink);
+  box-shadow: 0 0 12px var(--neon-pink);
+}
+
+.close-sesion:hover {
+  background: #ff3377;
+  box-shadow: 0 0 18px #ff3377;
+}
+
+/* Footer */
+footer {
+  background-color: var(--footer-bg);
+  color: var(--footer-text);
+  padding: 1em;
+  text-align: center;
+  font-weight: bold;
+  width: 100%;
+  margin-top: 2em;
+}
+
+/* Animación */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsivo */
+@media (max-width: 690px) {
+  .menu-box {
+    padding: 2em 1.5em;
+  }
+
+  .menu-title {
+    font-size: 1.8rem;
+  }
+}
