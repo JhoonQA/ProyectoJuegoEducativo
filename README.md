@@ -39,3 +39,15 @@ https://srproyecto.com/Proyecto4/index.php
 ![image](https://github.com/user-attachments/assets/456dc316-9228-4d83-a5cf-0c4f93ea37c0)
 
 ---
+
+## Diagramas de Clases UML
+
+1.- JavaScript
+
+![js_UML](https://github.com/user-attachments/assets/b5ea45f6-2818-4225-a169-b19019223243)
+
+2.- PHP
+
+![php_UML](https://github.com/user-attachments/assets/fa7def09-1e50-4114-b1d3-58eac8b5bf14)
+
+---
