@@ -42,7 +42,7 @@ https://srproyecto.com/Proyecto4/index.php
 
 2.- PHP
 
-![php_UML](https://github.com/user-attachments/assets/1664107d-fcb2-4eed-962d-90c1a293b901)
+![php_UML](https://github.com/user-attachments/assets/1746087c-dc1a-4142-9cc1-15f8c47a0490)
 
 ---
 
