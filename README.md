@@ -36,47 +36,6 @@ https://srproyecto.com/Proyecto4/index.php
 
 ## Estructura de carpetas
 
-quiz-learn/
-├── index.php             # Página de inicio de sesión
-├── register.php          # Formulario de registro
-├── code_login.php        # Lógica de login (POO aplicada)
-├── code_register.php     # Lógica de registro (POO aplicada)
-├── conexion.php          # Conexión a la base de datos (con clase DB)
-├── cerrar_sesion.php     # Cierre seguro de sesión (clase Sesion)
-├── index_menu.php        # Menú principal con opciones (validación por sesión)
-├── css/
-│   ├── styles_login.css
-│   ├── styles_register.css
-│   └── styles_menu.css
-├── db/
-│   └── tabla/
-│       ├── usuarios.sql
-├── js/
-│   └── script.js
-├── 1_inicio/
-│   ├── editor.html     
-│   ├── estilo.css     
-│   ├── estilo_editor.css     
-│   ├── final.html       
-│   ├── index.html     
-│   ├── juego.html       
-│   ├── menu.html       
-│   |── img
-│   |    ├── auris.png
-│   |    |── deportes.png
-│   |    |── general.png
-│   |    |── int4.png
-│   |    |── juegos.png
-│   |    |── medalla.png
-│   |    |── musica.png
-│   |    |── puntos.png
-│   |    |── user.png
-│   |    |── peliculas.png
-|   |    └── programacion.png
-│   └── js
-│        ├── editor.js
-│        |── final.js
-│        |── index.js
-│        |── juego.js
-|        └── menu.js
-└── README.md
+![image](https://github.com/user-attachments/assets/456dc316-9228-4d83-a5cf-0c4f93ea37c0)
+
+---
