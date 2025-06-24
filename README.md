@@ -34,12 +34,6 @@ https://srproyecto.com/Proyecto4/index.php
 
 ---
 
-## Estructura de carpetas
-
-![image](https://github.com/user-attachments/assets/456dc316-9228-4d83-a5cf-0c4f93ea37c0)
-
----
-
 ## Diagramas de Clases UML
 
 1.- JavaScript
@@ -48,6 +42,12 @@ https://srproyecto.com/Proyecto4/index.php
 
 2.- PHP
 
-![php_UML](https://github.com/user-attachments/assets/fa7def09-1e50-4114-b1d3-58eac8b5bf14)
+![php_UML](https://github.com/user-attachments/assets/1664107d-fcb2-4eed-962d-90c1a293b901)
+
+---
+
+## Estructura de carpetas
+
+![image](https://github.com/user-attachments/assets/456dc316-9228-4d83-a5cf-0c4f93ea37c0)
 
 ---
