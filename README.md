@@ -24,7 +24,13 @@ Este proyecto sirve como ejercicio de consolidación de conocimientos en program
 2. MySQL       Base de datos relacional para almacenar usuarios. 
 3. HTML5       Estructura semántica de las páginas. 
 4. CSS3        Estilos y diseño visual. 
-5. JavaScript  Validaciones dinámicas. 
+5. JavaScript  Validaciones dinámicas.
+   
+---
+   
+## Enlace directo 
+
+https://srproyecto.com/Proyecto4/index.php
 
 ---
 
