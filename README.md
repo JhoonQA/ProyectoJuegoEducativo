@@ -30,7 +30,7 @@ Este proyecto sirve como ejercicio de consolidación de conocimientos en program
    
 ## Enlace directo 
 
-https://srproyecto.com/Proyecto4/index.php
+https://srproyecto.com/proyecto4/index.php
 
 ---
 
