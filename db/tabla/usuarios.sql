@@ -38,12 +38,7 @@ CREATE TABLE `usuarios` (
 -- Volcado de datos para la tabla `usuarios`
 --
 
-INSERT INTO `usuarios` (`id_usuario`, `nombre`, `email`, `clave`) VALUES
-(1, 'JhooN_7', 'jhonaklz7@gmail.com', '$2y$10$aecWsEW/lKsI.ytKDHv5.OvEB4aJnFoqbt5pU0.xqo8hhA2e16572'),
-(4, 'Juan', 'juan@gmail.com', '$2y$10$I9H39dK/typUnAfxzvw54eRDxj.UgKkC8ianeLjgWsxAcRAIgdfRy'),
-(5, 'Jhon Einer', 'jhonquispeapaza7@gmail.com', '$2y$10$84gSnwfv.1gujBTq4kjPP.JePwcFW2gEU3A2r5GB62RzPHqXowAf.'),
-(6, 'Admin', 'admin@gmail.com', '$2y$10$2WFrKl8NaL.X7lFtuJYFxu1QBdgM2XKpPGeijznkJGX/NhENF1zdO'),
-(7, 'Carlos Daniel', 'carlos@gmail.com', '$2y$10$KvWApUN5Mc5RVJgmpG.3zO9MZMvwJusjR8f6QyEms1ed5ohEcCVMC');
+INSERT INTO `usuarios` (`id_usuario`, `nombre`, `email`, `clave`) VALUES (...) ;
 
 --
 -- Índices para tablas volcadas
